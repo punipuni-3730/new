@@ -1,0 +1,60 @@
+body {
+  background: #d0eafc;
+  font-family: Meiryo;
+  margin: 0;
+  color:black;
+  margin: 0;
+  padding: 0;
+}
+.toptitle {
+  background: #da5757;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  font-size: 22px;
+  line-height: 1px;
+  margin: right 10px;
+  margin-left:-2px;
+  color: white;
+}
+img    {
+  float:left;
+  margin-right:10px;
+  margin-bottom: 10px;
+}  
+.leftmenu {
+  width:10%;
+  height:300px;
+  text-align:left;
+  margin-top 0px;
+  margin-bottom: 0px;
+  margin-left:5px;
+} 
+
+.main {
+  width:90%;
+  height:300px;
+  text-align:left;
+  margin :7px;
+}
+
+article {
+  display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
+}
+a {
+  color:rgb(61, 61, 61);
+  text-decoration:none;
+  margin:0px;
+}
+a:hover {/*マウスが上に乗っている状態*/
+  text-decoration:underline; /*←下線を表示*/
+}
+ul#leftmenu1 li{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.subtitle {
+  border-bottom: solid 2px rgb(175, 175, 175);
+  margin:0px;
+  margin-right: 20px;
+}
