@@ -1,83 +1,49 @@
-body {
-  background: #d0eafc;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
-  margin: 0px;
-  color:black;
-  margin-top: 0px;
-  padding: 0px;
+body{
+    font-size: 20px;
+    background: #d0eafc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'sans-serif';
+    margin: 0px;
+    color:black;
+    margin-top: 0px;
+    padding: 0px;
+  }
+  @font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://themes.googleusercontent.com/static/fonts/kaushanscript/v1/qx1LSqts-NtiKcLw4N03IFhlQWQpSCpzb2Peu3I-Q34.woff) format('woff');
+  }
+  
+  /*@media screen and (max-width: 768px)*/
+  
+  .top-menu{
+    background: #da5757;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 1px;
+    margin: right 10px;
+    margin-left:-2px;
+    color: white;
+    display:inline-block;
+  }
+  .icon{
+    float:left;
+    margin-right:10px;
+    margin-bottom: 3px;
+  }
+  .title{
+    font-size: 60px;
+    font-family: 'Noto Serif JP', serif;
 }
-.toptitle {
-  background: #da5757;
-  width: 100%;
-  padding: 10px;
-  text-align: left;
-  font-size: 22px;
-  line-height: 1px;
-  margin: right 10px;
-  margin-left:-2px;
-  color: white;
-}
-img    {
-  float:left;
-  margin-right:10px;
-  margin-bottom: 10px;
-}  
-.leftmenu {
-  width :200px;
-  height:300px;
-  text-align:left;
-  margin: top 0px;
-  margin-bottom: 0px;
-  margin-left:5px;
-} 
-
-.main {
-  width: 80%;
-  height:300px;
-  text-align:left;
-  margin :0px;
-}
-
-article {
-  display:flex;/*サイドバーとメインコンテンツを横並びにする指定をした*/
-}
-a {
-  color:rgb(61, 61, 61);
-  text-decoration:none;
-  margin:0px;
-}
-a:hover {/*マウスが上に乗っている状態*/
-  text-decoration:underline; /*←下線を表示*/
-}
-ul#leftmenu1 li{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.subtitle {
-  border-bottom: solid 1px rgb(175, 175, 175);
-  font-size:18px;
-  margin-bottom: 0px;
-}
-.date11 {
-  text-align: right;
-}
-.newtitle {
-  background-color: #DDDDDD;
-  font-weight: bold;
-  font-size: 25px;
-}
-.nexttitle-bar {
-  background-color: #610f0f;
-  width: 2.5px;
-  height: 35px;
+.topbox{
   margin-top: 10px;
 }
-.nexttitle-text {
-  margin:5px;
-  font-size:25px;
-  font-weight: bold;
-  margin-top: -10px;
-}
-span {
-  color: #dd4848;
+  .box{
+    margin-top: 10px;
+    font-family: 'Noto Serif JP';
+    width: 350px;
+    display: inline-block;
+
 }
