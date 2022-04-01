@@ -1,90 +1,54 @@
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8">
-		<title>TORO SERVER</title>
-        <link href="stylesheet.css" rel="stylesheet" type="text/css">
-	</head>
-    <script> /*ここがJavascript部分になる*/
-        const last = new Date(document.lastModified);
-        const year = last.getFullYear();
-        const month = last.getMonth() + 1;
-        const date = last.getDate();
-        </script>
-    <header id="header"></header>
-    <body>
-        <div class="toptitle">
-          <img src="https://pbs.twimg.com/profile_images/939741973950349312/RunBdWMJ_400x400.jpg" width="80px" margin-left=10px">
-          <h1>TORO SERVER</h1>
-          <p>Minecraft Java Editon向け クリエイティブ サーバー</p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORO SERVER 公式ホームページ</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-menu">
+        <div class="icon">
+            <a href="/"><img src="https://pbs.twimg.com/profile_images/939741973950349312/RunBdWMJ_400x400.jpg" width="80px"></a>
+            </div>
+        <div class="top-menu2">
+            <h1>TORO SERVER</h1>
+            <p>Minecraft Java Editon向け クリエイティブ サーバー</p>
         </div>
-        <article>
-            <div class="leftmenu">
-                <p style="font-size: 20px; font-weight: bold; color: rgb(165, 0, 0); margin:0px;margin-left:20px;">Menu</p>
-                <ul id="leftmenu1">
-                    <li><a href="index.html"><p>トップページ</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/TORO%20Server%a4%c8%a4%cf%a1%a9"><p>TORO Serverとは?</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/%a5%eb%a1%bc%a5%eb"><p>ルール</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/%cd%f8%cd%d1%b5%ac%cc%f3"><p>利用規約</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/%b1%bf%b1%c4%a5%c1%a1%bc%a5%e0"><p>運営チーム</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/Discord%a4%cb%a4%c4%a4%a4%a4%c6"><p>Discordについて</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/%b9%d3%a4%e9%a4%b7%a4%f2%b8%ab%a4%c4%a4%b1%a4%bf%a4%e9"><p>荒らしを見つけたら</p></a></li>
-                    <li><a href="https://seesaawiki.jp/toro_server/d/FAQ"><p>FAQ</p></a></li>
-                </ul>
+    </div>
+    <div class="main" style="text-align: center;">
+        <div class="main-photo">
+            <img src="photos/topintext.png" width="100%">
+        </div>
+        <div class="topbox" style="text-align: center;">
+            <div class="box">
+                <div class="box-icon">
+                    <img src="photos/ono.png" style="width: 50%;">
+                </div>
+                <div class="box-text">
+                    <p>WorldEditを使えば、<br>広範囲の設置･破壊も簡単。<br>操作にもすぐ慣れますよ。</p>
+                </div>
             </div>
-            <div class="main">
-                <div class="subtitle">
-                    <h2>トップページ</p>
+            <div class="box">
+                <div class="box-icon">
+                    <img src="photos/freedom.png" style="width: 50%; border-radius: 10px;">
                 </div>
-                <div class="date11">
-                    <script>document.write('最終更新:' + document.lastModified);</script>
+                <div class="box-text">
+                    <p>とにかく自由を保証するサーバーです!<br>街や鉄道、戦車を作るのも良し、<br>他人の建築を見学するのもアリ。</p>
                 </div>
-                <h1 style="font-size: 50px;text-align:center;color:#cc3300; margin:0px;">祝！4周年！</h1>
-                <h2 style="text-align:center;color:#cc3300">TORO鯖に永久な栄光の招福あれ！</h2>
-                <h2>TORO Server公式Wikiにようこそ！</h2>
-                <div>当サイトではサーバーにおけるルール、更新情報等を掲載しています。</div>  
-                <div class="newtitle">
-                    <p>Infomation</p>
-                </div>
-                <h2 style="text-align:left;color:#cc0000;font-weight: bold;margin-top: -20px;">1.16へのバージョンアップを行いました！</h2>
-                <p style="margin-bottom: 2px;margin-top: -20px;">バージョンアップに伴う問題点を見つけた際は運営までご連絡ください。</p>
-                <article>
-                <div class="nexttitle-bar">
-                    <br></br>
-                </div>
-                <div class="nexttitle-text" style="color: rgb(221, 42, 102);">
-                    <p>初めての方へ</p>
-                </div>
-                </article>
-                <p style="margin-top:-20px;">サーバーに参加する前に、<span>ルール</span>をお読みください。</p>
-                <P>知らずにルールに違反してBANされることがあります。</P>
-                <p>また、<a href="https://seesaawiki.jp/toro_server/d/TOROServer%a4%f210%c7%dc%b3%da%a4%b7%a4%e04%a4%c4%a4%ce%bb%f6"><span>TOROServerを10倍楽しむ4つの事</span></a>では、更にこのサーバーで楽しむ方法が書いてあります。</p>
-                <article>
-                    <div class="nexttitle-bar">
-                        <br></br>
-                    </div>
-                    <div class="nexttitle-text">
-                        <p>オーナーのひとこと</p>
-                    </div>
-                </article>
-                <p style="margin-top:-20px;">メインワールドを拡張しました。より自由な建築をお楽しみください！</p>
-                <article>
-                    <div class="nexttitle-bar">
-                        <br></br>
-                    </div>
-                    <div class="nexttitle-text">
-                        <p>これからの予定</p>
-                    </div>
-                </article>
-                <li style="margin-top:-20px;">時期未定：メインサーバーを1.18にバージョンアップ</li>
-                <article>
-                    <div class="nexttitle-bar">
-                        <br></br>
-                    </div>
-                    <div class="nexttitle-text">
-                        <p>既知の不具合</p>
-                    </div>
-                </article>
-                <li style="margin-top:-20px;">画面右のスコアボード(ping,TPS等)が機能しない</li>
             </div>
-        </article>
+            <div class="box">
+                <div class="box-icon">
+                    <img src="photos/bigworld.png" style="width: 50%; border-radius: 10px;">
+                </div>
+                <div class="box-text">
+                    <p>広大なワールドで<br>思いのままに建築できます。<br>自分だけの世界を作ろう。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
